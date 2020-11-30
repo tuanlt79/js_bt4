@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bài Tập 4</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <!-- BÀI TẬP CƠ BẢN -->
+        <!-- BÀI TẬP 1 -->
+        <div class="col-6 my-5">
+          <h2>THỨ TỰ TĂNG DẦN</h2>
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Nhập số thứ 1"
+                class="form-control"
+                id="num"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Nhập số thứ 2"
+                class="form-control"
+                id="num2"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Nhập số thứ 3"
+                class="form-control"
+                id="num3"
+              />
+            </div>
+
+            <button type="button" id="btnTang" class="btn-success btn">
+              Sắp xếp tăng dần
+            </button>
+
+            <p id="txtTang"></p>
+          </form>
+        </div>
+        <!-- BÀI TẬP 2 -->
+
+        <div class="col-6 my-5">
+          <h2>AI ĐANG SỬ DỤNG MÁY</h2>
+          <div class="form-group">
+            <select class="form-control" id="selectVT">
+              <option>--Chọn Vị Trí--</option>
+              <option value="B">Bố</option>
+              <option value="M">Mẹ</option>
+              <option value="E">Em Gái</option>
+              <option value="A">Anh Trai</option>
+            </select>
+          </div>
+          <button class="btn-success btn" id="btnCH">Chào hỏi</button>
+          <p id="txtCH"></p>
+        </div>
+
+        <!-- BÀI TẬP 3 -->
+        <div class="col-6 my-5">
+          <h2>Đếm Số Chẵn Lẻ</h2>
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Nhập số thứ 1"
+                class="form-control"
+                id="number1"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Nhập số thứ 2"
+                class="form-control"
+                id="number2"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Nhập số thứ 3"
+                class="form-control"
+                id="number3"
+              />
+            </div>
+
+            <button type="button" id="btnDem" class="btn-success btn">
+              Đếm
+            </button>
+
+            <p id="txtDem"></p>
+          </form>
+        </div>
+        <!-- BÀI TẬP 4 -->
+        <div class="col-6 my-5">
+          <h2>Loại Tam Giác</h2>
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Nhập cạnh thứ 1"
+                class="form-control"
+                id="numb1"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Nhập cạnh thứ 2"
+                class="form-control"
+                id="numb2"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Nhập cạnh thứ 3"
+                class="form-control"
+                id="numb3"
+              />
+            </div>
+
+            <button type="button" id="btnTG" class="btn-success btn">
+              Loại Tam Giác
+            </button>
+
+            <p id="txtXuat"></p>
+          </form>
+        </div>
+        <!-- BÀI TẬP NÂNG CAO -->
+        <div class="col-12">
+          <h2>Tính Ngày Tháng Năm Tiếp Theo</h2>
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Nhập Ngày"
+                class="form-control"
+                id="inputDay"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Nhập Tháng"
+                class="form-control"
+                id="inputMonth"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Nhập Năm"
+                class="form-control"
+                id="innputYear"
+              />
+            </div>
+
+            <button type="button" id="btnKQ" class="btn-success">
+              Ngày Tháng Năm kế tiếp
+            </button>
+            <button type="button" id="btnKQ2" class="btn-success">
+              Ngày Tháng Năm trước đó
+            </button>
+            <p id="txtKQ1"></p>
+          </form>
+        </div>
+        <div class="col-6 mt-5">
+          <h2>Kiểm tra tháng bao nhiêu ngày</h2>
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Nhập Năm"
+                class="form-control"
+                id="inputNam"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Nhập Tháng 1-12"
+                class="form-control"
+                id="inputThang"
+              />
+            </div>
+
+            <button type="button" id="btnThongBao1" class="btn-success">
+              Kiểm tra
+            </button>
+            <p id="txtTB1"></p>
+          </form>
+        </div>
+        <!-- BÀI TẬP Số 3-->
+        <div class="col-8 mt-5">
+          <h2>ĐỌC SỐ</h2>
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Nhập 3 Số"
+                class="form-control"
+                id="inputNum"
+              />
+            </div>
+
+            <button type="button" id="btnThongBao2" class="btn-success">
+              Đọc số
+            </button>
+            <p id="txtTB2"></p>
+          </form>
+        </div>
+        <!-- BÀI TẬP Số 4-->
+        <div class="col-12 mt-5">
+          <!-- <h2>Tính Tọa Độ</h2> -->
+          <form>
+            <!-- <div class="form-group col-4">
+              <input
+                type="text"
+                placeholder="Nhập Tên Sinh Viên"
+                class="form-control"
+                id="inputSV"
+              />
+              <input
+                type="text"
+                placeholder="Nhập tọa độ hiện tại"
+                class="form-control"
+                id="inputTD"
+              />
+              <input
+                type="text"
+                placeholder="Nhập tọa độ Trường học"
+                class="form-control"
+                id="inputTruong"
+              />
+            </div> -->
+            <div class="card">
+              <div class="card-header text-center">Tính Tọa Độ</div>
+              <div class="card-body">
+                <form>
+                  <div class="row">
+                    <div class="form-group col-4">
+                      <label for="">Tên Sinh Viên 1</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="inputSV1"
+                        placeholder="Nhập Tên Sinh Viên 1"
+                      />
+                      <div class="row">
+                        <div class="form-group mt-3 ml-3">
+                          <label for=""> Nhập Tọa Độ SV 1</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputX1"
+                            placeholder="Nhập tọa độ x "
+                          />
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputY1"
+                            placeholder="Nhập tọa độ y"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group col-4">
+                      <label for="">Tên Sinh Viên 2</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="inputSV2"
+                        placeholder="Nhập Tên Sinh Viên 2"
+                      />
+                      <div class="row">
+                        <div class="form-group mt-3 ml-3">
+                          <label for=""> Nhập Tọa Độ SV 2</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputX2"
+                            placeholder="Nhập tọa độ x "
+                          />
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputY2"
+                            placeholder="Nhập tọa độ y"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group col-4">
+                      <label for="">Tên Sinh Viên 3</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="inputSV3"
+                        placeholder="Nhập Tên Sinh Viên 3"
+                      />
+                      <div class="row">
+                        <div class="form-group mt-3 ml-3">
+                          <label for=""> Nhập Tọa Độ SV 3</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputX3"
+                            placeholder="Nhập tọa độ x "
+                          />
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputY3"
+                            placeholder="Nhập tọa độ y"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group col-12 mt-3">
+                    <label for=""> Nhập Tọa Độ Trường Học</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inputTHX"
+                      placeholder="Nhập tọa độ x"
+                    />
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inputTHY"
+                      placeholder="Nhập tọa độ y"
+                    />
+                  </div>
+                  <button
+                    type="button"
+                    id="btnThongBao3"
+                    class="btn btn-success mt-3"
+                  >
+                    Tọa Độ SV Xa Nhất
+                  </button>
+                  <p id="txtTB3"></p>
+                </form>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/bt-4.js"></script>
+    <script src="./js/js4.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
